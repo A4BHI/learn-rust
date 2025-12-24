@@ -16,7 +16,14 @@ fn main(){
     //println!("{}",v2); this will cause error cause v2 only lives in it scope not outside of {}
 
 
-    
+    fn str_len(s: String) {
+        println!("{}",s.len());
+    }
+
+    let s = String::from("Hey");
+    str_len(s);
+   // println!("{}",s);  this will cause error cause the str_len(s:String) which takes String and Sring dosent copy it uses ownsership so now the ownership of hey is with s in the function 
+
 
 
 }

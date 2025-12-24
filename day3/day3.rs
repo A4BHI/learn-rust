@@ -34,4 +34,7 @@ fn main(){
     println!("{}",s.len()); 
 
 
+    //the best way for this string operations are using &str they can support String,slices etc 
+    
+
 }

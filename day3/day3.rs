@@ -36,5 +36,12 @@ fn main(){
 
     //the best way for this string operations are using &str they can support String,slices etc 
     
+    fn str_len2(s: &str){
+        println!("{}",s.len());
+    }
+
+    let s3: &str = "HEYYY";
+    str_len2(s3);
+    println!("{}",s3.len());
 
 }
